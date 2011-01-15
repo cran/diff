@@ -60,14 +60,14 @@ discrete.histogram <- function (x, prob, prob2=NULL, prob3=NULL,
   if (!is.null(yaxs.label)){
     axis (2, yaxs.label[[1]], yaxs.label[[2]])
   }
-  
-  offset <- rep (NA, 3)
-  if (!is.null (prob2) & !is.null (prob3)) {
+ 
+  offset <- rep (0, 3)
+  if (length(prob2)!=0 & length(prob3)!=0) {
     offset[1] <- -bar.width
     offset[2] <- 0
     offset[3] <- bar.width
   }
-  if (!is.null (prob2) & is.null (prob3)) {
+  if (length(prob2)>0 & length(prob3)==0) {
     offset[1] <- -bar.width/2
     offset[2] <- bar.width/2
     offset[3] <- 0

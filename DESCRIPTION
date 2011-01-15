@@ -1,5 +1,5 @@
 Package: diff
-Version: 1.0.1
+Version: 1.0.2
 Date: 2011-01-15
 Title: Statistics: What's the Difference?
 Author: Andrew Gelman <gelman@stat.columbia.edu>, Vincent Dorie
@@ -11,6 +11,6 @@ Description: R code to accompany the text book.
 License: GPL (>= 2)
 URL: http://applied.stat.columbia.edu/diff
 BugReports: email bearlee@alum.mit.edu for the time being
-Packaged: 2011-01-23 22:48:17 UTC; daniel
+Packaged: 2012-10-29 08:58:34 UTC; ripley
 Repository: CRAN
-Date/Publication: 2011-01-24 09:58:06
+Date/Publication: 2012-10-29 08:58:34
